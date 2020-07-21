@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {PortfolioStoreService} from "./portfolio-store.service";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,32 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portfolioInAngular';
+  constructor(private PortfolioStore: PortfolioStoreService) {
+  }
+
+  /**
+   * временный префикс ссылки для картинок
+   */
+  public testPathToAssets = "";
+
+  public testPathToAssetsRet(){
+    return this.testPathToAssets;
+  }
+
+  getHeader(){
+    return this.PortfolioStore.getHeader();
+  }
+
+  getLatestWork(){
+    return this.PortfolioStore.getLatestWork();
+  }
+
+  getExperiments(){
+    return this.PortfolioStore.getExperiments();
+  }
+
+  getFooter(){
+    return this.PortfolioStore.getFooter();
+  }
+
 }
