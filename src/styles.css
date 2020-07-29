@@ -38,20 +38,64 @@ button:not(:disabled) {
 }
 
 input{
-  outline: transparent;
+  outline: none;
 }
 
-@media (min-width: 576px) {
+#header_backg_white #buttonIcon{
+  fill: #4c4f65 !important;
+}
+
+#header_backg_white #icon_item{
+  color: #4c4f65;
+}
+
+#header_backg_white #icon_item:hover{
+  color: black;
+}
+
+#header_backg_white #logo svg #logo1{
+  fill: #3B3B3B;
+}
+
+#header_backg_white #logo svg #logo2{
+  fill: #fff;
+}
+
+#logo svg{
+  position: absolute;
+}
+
+#logo svg #logo1{
+  fill: #fff;
+}
+
+#logo svg #logo2{
+  fill: #3B3B3B;
+}
+
+#logoBack{
+  transform: scale(2.5);
+  transition: transform 0.5s;
+}
+
+@media (max-width: 1200px) {
 
 }
 
-@media (min-width: 768px) {
-
+@media (max-width: 992px) {
+  #logoBack{
+    transform: scale(2);
+  }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 768px) {
+  #logoBack{
+    transform: scale(1.5);
+  }
 }
 
-@media (min-width: 1200px) {
-
+@media (max-width: 576px) {
+  #logoBack{
+    transform: scale(1);
+  }
 }
