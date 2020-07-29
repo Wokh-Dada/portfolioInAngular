@@ -13,7 +13,7 @@ export class AppComponent {
   /**
    * временный префикс ссылки для картинок
    */
-  public testPathToAssets = "";
+  public testPathToAssets = "https://cdn.ramman.net/flexy-view/abdullakh/promo/1.01/assets/";
 
   public testPathToAssetsRet(){
     return this.testPathToAssets;

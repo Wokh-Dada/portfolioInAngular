@@ -175,7 +175,7 @@ export class PortfolioStoreService {
       {
         id: 1,
         number: '01',
-        img: 'https://cdn.dribbble.com/users/124454/screenshots/10138254/media/395662e68da36da89a1c966fea881332.png',
+        img: 'wibbitz.png',
         title: 'Project Wibbitz',
         subtitle: 'Wibbitz - Ре сурсный Центр',
         btn: [
@@ -194,7 +194,7 @@ export class PortfolioStoreService {
       {
         id: 2,
         number: '02',
-        img: 'https://cloclo20.cloud.mail.ru/inline/company%20cards.png?etag=32CBD0A231AA8237347C5B6BFF5A66C59247CCAC&x-email=a.gezikhanov%40mail.ru',
+        img: 'companyCards.png',
         title: 'Company Cards',
         subtitle: 'Revolut Business',
         btn: [
@@ -212,7 +212,7 @@ export class PortfolioStoreService {
       {
         id: 3,
         number: '03',
-        img: 'https://cloclo20.cloud.mail.ru/inline/%D1%85%D0%BE%D1%87%D1%83-%D0%B1%D0%BE%D1%82%D0%B0.png?etag=8F668D2A7F78D2CD9E808A77FBD63CEE985747FD&x-email=a.gezikhanov%40mail.ru',
+        img: 'wantBot.png',
         title: 'Хочу бота',
         subtitle: 'Разработать чат-бот',
         btn: [
