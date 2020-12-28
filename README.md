@@ -5,4 +5,4 @@
 - автоматическая замена ссылок на социальные сети и иконок через замену пердаваемых данных
 - форма обратной связи;
 
-### Демо версия - [Демо](https://wokh-dada.github.io/botDevelAppInAngular/)
+### Демо версия - [Демо](https://wokh-dada.github.io/portfolioInAngular/)
